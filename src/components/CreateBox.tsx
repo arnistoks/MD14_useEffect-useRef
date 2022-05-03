@@ -3,7 +3,7 @@ import './slyle.scss';
 
 const CreateBox = () => {
   const boxWrapperRef = useRef<HTMLDivElement | null>(null);
-  const [boxColor, setBoxColor] = useState('red');
+  const [boxColor, setBoxColor] = useState('');
 
   const createBox = () => {
     if (boxWrapperRef.current) {
@@ -33,6 +33,7 @@ const CreateBox = () => {
             setBoxColor(e.target.value)
           )}
         >
+          <option selected hidden>COLOR DROPDOWN</option>
           <option value="darkred">RED</option>
           <option value="royalblue">BLUE</option>
           <option value="orange">ORANGE</option>
