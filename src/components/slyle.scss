@@ -1,0 +1,138 @@
+.container__firstCount {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.button__firstCount {
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: fit-content;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: lightgray;
+
+  &:hover {
+    background-color: darkgrey;
+  }
+
+  &:active {
+    background-color: lightgray;
+  }
+}
+
+.count__firstCount {
+  font-size: 20px;
+}
+
+.input__firstCount {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 400px;
+  text-transform: uppercase;
+}
+
+.text__firstCount {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.button__createList {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: greenyellow;
+  cursor: pointer;
+  width: fit-content;
+
+  &:hover {
+    background-color: yellowgreen;
+  }
+
+  &:active {
+    background-color: greenyellow;
+  }
+}
+
+.button__timeout {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: lightgray;
+  cursor: pointer;
+  width: fit-content;
+
+  &:hover {
+    background-color: darkgrey;
+  }
+
+  &:active {
+    background-color: lightgray;
+  }
+}
+
+.button__timeout:disabled {
+  border: 1px solid #999999;
+  background-color: lightgray;
+  color: #666666;
+  cursor: progress;
+}
+
+.boxWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.newBox {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.container__timeoutAndMultiply {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.counter {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container__createBox {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.select {
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.ul {
+  margin-left: -50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

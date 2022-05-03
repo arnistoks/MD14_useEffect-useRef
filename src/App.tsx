@@ -1,27 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import FirstCount from './components/FirstCount';
+import SecondCount from './components/SecondCount';
+import InputFocus from './components/InputFocus';
+import CreateList from './components/CreateList';
+import TimeoutAndMultiply from './components/TimeoutAndMultiply';
+import CreateBox from './components/CreateBox';
 
 const App = () => (
   <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit
-        {' '}
-        <code>src/App.tsx</code>
-        {' '}
-        and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
+    <section className="section">
+      <div className="container">
+        <FirstCount />
+      </div>
+      <div className="container">
+        <SecondCount />
+      </div>
+      <div className="container">
+        <InputFocus />
+      </div>
+      <div className="container">
+        <CreateList />
+      </div>
+      <div className="container">
+        <TimeoutAndMultiply />
+      </div>
+      <div className="container">
+        <CreateBox />
+      </div>
+    </section>
   </div>
 );
 
